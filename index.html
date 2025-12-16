@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Prana</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Work with me</a></li>
+                <li><a href="#about">About Me</a></li>
+            </ul>
+            <a href="#" class="home-icon" aria-label="Home">
+                <img src="images/Home Tab.png" alt="Home">
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="about-section">
+            <div class="container">
+                <img src="images/My Photo.png" alt="Profile photo" class="profile-photo">
+                <div class="about-content">
+                    <h1>Hi, I'm Pranav</h1>
+                    <p>Aspiring web developer passionate about crafting responsive, user-friendly websites using HTML, CSS, JavaScript, C#, and SQL. Always learning, building, and exploring new ways to bring ideas to life through code.</p>
+                    <a href="#" class="read-more">Read more</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="current-projects" class="projects-section">
+            <div class="container">
+                <h2>Current Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <img src="images/Blog Site Image.png" alt="Blog Site project screenshot">
+                        <h3>Blog Site</h3>
+                        <a href="#projects" class="btn">View Project</a>
+                    </article>
+                    <article class="project-card">
+                        <img src="images/Simple Website Image.png" alt="Simple Website project screenshot">
+                        <h3>Simple Website</h3>
+                        <a href="#projects" class="btn">View Project</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="future-projects" class="projects-section alt-bg">
+            <div class="container">
+                <h2>Future Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <img src="images/Migration Helper Image.png" alt="Migration Helper project mockup">
+                        <h3>Migration Helper</h3>
+                        <a href="#projects" class="btn">Coming Soon</a>
+                    </article>
+                    <article class="project-card">
+                        <img src="images/Sleep Tracker Image.png" alt="Sleep Tracker project mockup">
+                        <h3>Sleep Tracker</h3>
+                        <a href="#projects" class="btn">Coming Soon</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="tech-stack" class="tech-section">
+            <div class="container">
+                <h2>Tech Stack</h2>
+                <img src="images/Tech Stack.png" alt="Tech Stack" class="tech-stack-image">
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-left">
+                        <h2>Work with me</h2>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact-right">
+                        <img src="images/Quote.png" alt="Quote" class="quote-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p class="copyright">© 2025 Property Of Pranav Rupani</p>
+                <a href="#">Privacy</a>
+                <a href="#">Terms Of Use</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
